@@ -1,12 +1,15 @@
+
 import './Style.css'
 
 function Info() {
-
-
   return (
-    <>
-      info
-    </>
+    <main className="info-page">
+      <img
+        src="/fondoBD2.png"
+        alt="Portada de Potter API"
+        className="portada-potter"
+      />
+    </main>
   )
 }
 

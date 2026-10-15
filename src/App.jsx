@@ -6,7 +6,9 @@ import Favoritos from './components/favoritos'
 import Info from './components/informacion'
 import Usuario from './components/usuario'
 import Mago from './components/magos'
+import Sombrero from './components/Sombrero'
 import './App.css'
+
 
 function App() {
 
@@ -20,6 +22,7 @@ function App() {
         <Link to="/favoritos">Favoritos</Link>
         <Link to="/info">Info</Link>
         <Link to="/usuario">Usuarios</Link>
+        <Link to="/Sombrero">Sombrero</Link>
 
       </nav>
 
@@ -29,7 +32,8 @@ function App() {
         <Route path='/favoritos' element={<Favoritos />} />
         <Route path='/info' element={<Info />} />
         <Route path='/usuario' element={<Usuario/>} />
-       <Route path="/Mago/:name" element={<Mago />} />
+       <Route path="/magos/:slug" element={<Mago />} />
+       <Route path='/Sombrero' element={<Sombrero />} />
       </Routes>
     </Router>
 

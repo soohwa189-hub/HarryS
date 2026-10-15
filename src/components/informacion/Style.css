@@ -1,0 +1,12 @@
+.info-page {
+  width: 100%;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.portada-potter {
+  display: block;
+  width: 109%;
+  height: auto;
+}
